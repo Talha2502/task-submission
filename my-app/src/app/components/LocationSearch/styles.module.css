@@ -1,0 +1,17 @@
+
+.locationSearchContainer {
+  @apply absolute bottom-5 left-5 z-50 bg-black p-4 rounded-lg shadow-md flex items-center w-[1100px];
+}
+
+.locationInput {
+  @apply mr-4 p-2 rounded-md border border-gray-300 bg-white text-black w-3/4;
+}
+
+.findButton {
+  @apply p-2 rounded-md border-none bg-green-500 text-white cursor-pointer text-black w-64;
+}
+
+/* styles.module.css */
+.locateMeButton {
+  @apply p-2 rounded-md border-none bg-green-500 text-white cursor-pointer text-black w-64 mr-2;
+}

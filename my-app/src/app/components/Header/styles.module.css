@@ -1,0 +1,20 @@
+.header {
+    @apply bg-white text-black p-4 flex justify-between items-center fixed top-0 left-0 w-full z-50;
+  }
+  
+  .buttonsignup {
+    @apply bg-green-500 text-black py-2 px-4 mx-2 rounded-full;
+  }
+  
+  .buttonlogin {
+    @apply bg-white text-black py-2 px-4 mx-2 rounded-full border border-black;
+  }
+  
+  .logo {
+    @apply w-16 h-auto;
+  }
+  
+  .logoContainer {
+    @apply flex items-center;
+  }
+  
